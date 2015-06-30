@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/mine_bg_top" >
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/welcome"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/tv_login"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#44000000"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/tv_register"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#44000000"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp" />
+    </LinearLayout>
+
+</RelativeLayout>

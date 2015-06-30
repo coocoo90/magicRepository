@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffececec"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="20dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/top_bag" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tv_car"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/textview_clicked"
+                android:drawableLeft="@drawable/home_mine_cart"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/mine_arrow"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/car" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="46dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tv_coupon"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:drawableLeft="@drawable/home_main_coupon"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/mine_arrow"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/mime_home_coupon" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="46dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tv_recently_view"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:drawableLeft="@drawable/mine_recently_view"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/mine_arrow"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/recently_view" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="46dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tv_favourite"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:drawableLeft="@drawable/mine_myfavourite"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/mine_arrow"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/my_favourite" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="46dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tv_asses"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:drawableLeft="@drawable/mine_review"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/mine_arrow"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/mime_assess" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tv_location_manage"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:drawableLeft="@drawable/mine_cell_location"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/mine_arrow"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/location_manage" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="46dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tv_safe"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:drawableLeft="@drawable/mine_safe"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/mine_arrow"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/mime_safe" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="46dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tv_system_set"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:drawableLeft="@drawable/mine_set"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/mine_arrow"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="@string/system" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:background="@android:color/darker_gray" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

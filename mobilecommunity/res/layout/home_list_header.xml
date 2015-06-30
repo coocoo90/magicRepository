@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_background"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/captical_top_img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/captical_page_top_img_height"
+        android:scaleType="fitXY"
+        android:src="@drawable/choice" />
+
+    <com.sspu.view.MyGridView
+        android:id="@+id/captical_top_gv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:listSelector="#ffffff"
+        android:numColumns="2" > 
+    </com.sspu.view.MyGridView>
+
+    <com.sspu.view.MyGridView
+        android:id="@+id/captical_bottom_gv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/captical_page_margin"
+        android:background="@color/white"
+        android:listSelector="#ffffff"
+        android:numColumns="4" >
+    </com.sspu.view.MyGridView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/captical_page_margin"
+        android:background="@color/white"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:text="周边店铺" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="更多周边" />
+    </RelativeLayout>
+
+</LinearLayout>

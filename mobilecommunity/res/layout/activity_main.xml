@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+   <include layout="@layout/titlebar"/>
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#c0c0c0"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout_home"
+            android:layout_width="0dp"
+            android:focusable="true"           
+            android:clickable="true"
+            android:layout_height="match_parent"
+            android:layout_weight="1"            
+            android:gravity="center"
+            android:orientation="vertical" >
+            <ImageView 
+                android:id="@+id/img_home"
+                android:contentDescription="@string/empty"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/btn_tool_home_pressed_red"
+              
+                />
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textColor="@android:color/white"
+                android:text="@string/home"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_proprty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" 
+             android:focusable="true"
+           
+            android:clickable="true"          
+            android:gravity="center"
+            android:orientation="vertical" >
+			 <ImageView 
+			     android:id="@+id/img_property"
+                android:contentDescription="@string/empty"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/btn_tool_proprty_dark"/>
+			 
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textColor="@android:color/white"
+                android:text="@string/propertr"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_hub"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"            
+            android:layout_weight="1"
+             android:focusable="true"
+            
+            android:clickable="true"
+            android:gravity="center"          
+            android:orientation="vertical" >
+             <ImageView 
+                 android:id="@+id/img_hub"
+                android:contentDescription="@string/empty"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/btn_tool_ngb_dark"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textColor="@android:color/white"
+                android:text="@string/hub"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"     
+             android:focusable="true"
+            
+            android:clickable="true"       
+            android:gravity="center"
+            android:orientation="vertical" >
+             <ImageView 
+                 android:id="@+id/img_center"
+                android:contentDescription="@string/empty"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/btn_tool_person_dark"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textColor="@android:color/white"
+                android:text="@string/center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/main_layout_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relativeLayout1" >
+    </FrameLayout>
+</RelativeLayout>

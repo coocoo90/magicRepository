@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_right_btn_width">50dp</dimen>
+    <dimen name="title_neighborhood_name_width">80dp</dimen>
+    <dimen name="captical_page_top_img_height">110dp</dimen>
+    <dimen name="captical_page_margin">10dp</dimen>
+    <dimen name="estate_page_margin">15dp</dimen>
+    <dimen name="gridview_padding">5dp</dimen>
+    <dimen name="estate_gray_textsize">10sp</dimen>
+    <dimen name="welcome_dots_margin_bottom">50dp</dimen>
+    <dimen name="welcome_btn_padding">5dp</dimen>
+    <dimen name="captical_top_gv_icon_margin">10dp</dimen>
+
+</resources>
